@@ -1,0 +1,11 @@
+npm create vite@latest task-app-frontend
+
+cd task-app-frontend
+npm install
+npm install axios react-router-dom bootstrap
+
+
+
+
+
+https://www.youtube.com/watch?v=NemyDIUcC64&list=PLjC4UKOOcfDSA06HsjJK4ZBr1tnPaOOpq
