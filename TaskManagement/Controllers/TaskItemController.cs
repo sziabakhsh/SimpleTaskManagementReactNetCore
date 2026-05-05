@@ -27,7 +27,7 @@ namespace TaskManagement.Controllers
 
         [HttpGet]
         [Route("{id}")]
-        [Authorize]
+        //[Authorize]
         public async Task<IActionResult> GetTaskItemById(int id)
         {
             var taskItem = await _taskItemRepository.GetTaskItemByIdAsync(id);
@@ -39,8 +39,8 @@ namespace TaskManagement.Controllers
         }
 
         [HttpPost("create")]
-        [Authorize]
-        public async Task<IActionResult> CreateTaskItem([FromBody] TaskItemRequestDto taskItemDto)
+        //[Authorize]
+        public async Task<IActionResult> Create([FromBody] TaskItemRequestDto taskItemDto)
         {
             var taskItem = taskItemDto.ToTaskItem();
             var createdTaskItem = await _taskItemRepository.CreateTaskItemAsync(taskItem);
@@ -50,7 +50,5 @@ namespace TaskManagement.Controllers
             }
             return CreatedAtAction(nameof(GetTaskItemById), new { id = createdTaskItem.Id }, createdTaskItem.ToTaskItemDto());
         }
-
-
     }
 }

@@ -27,7 +27,7 @@
   },
   {
     "ContainingType": "TaskManagement.Controllers.TaskItemController",
-    "Method": "CreateTaskItem",
+    "Method": "Create",
     "RelativePath": "api/TaskItem/create",
     "HttpMethod": "POST",
     "IsController": true,

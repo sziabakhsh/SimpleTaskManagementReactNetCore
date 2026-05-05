@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "E:\\GitProjects\\__Github\\TaskManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\frontend\\src\\pages\\tasklistpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\frontend\\src\\pages\\tasklistpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\frontend\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\frontend\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\frontend\\src\\services\\api.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\frontend\\src\\services\\api.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\frontend\\src\\services\\taskservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\frontend\\src\\services\\taskservice.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\frontend\\src\\types\\task.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\frontend\\src\\types\\task.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\controllers\\taskitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\controllers\\taskitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.tsx",
-              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\App.tsx",
-              "RelativeDocumentMoniker": "TaskManagement\\frontend\\src\\App.tsx",
-              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\App.tsx",
-              "RelativeToolTip": "TaskManagement\\frontend\\src\\App.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-04-24T16:16:29.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TaskListPage.tsx",
-              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\pages\\TaskListPage.tsx",
-              "RelativeDocumentMoniker": "TaskManagement\\frontend\\src\\pages\\TaskListPage.tsx",
-              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\pages\\TaskListPage.tsx",
-              "RelativeToolTip": "TaskManagement\\frontend\\src\\pages\\TaskListPage.tsx",
-              "ViewState": "AgIAADkAAAAAAAAAAAAcwE8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-04-24T16:15:53.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Task.ts",
-              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\types\\Task.ts",
-              "RelativeDocumentMoniker": "TaskManagement\\frontend\\src\\types\\Task.ts",
-              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\types\\Task.ts",
-              "RelativeToolTip": "TaskManagement\\frontend\\src\\types\\Task.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-04-24T16:03:44.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "taskService.ts",
-              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\services\\taskService.ts",
-              "RelativeDocumentMoniker": "TaskManagement\\frontend\\src\\services\\taskService.ts",
-              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\services\\taskService.ts",
-              "RelativeToolTip": "TaskManagement\\frontend\\src\\services\\taskService.ts",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-04-23T17:30:23.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "api.ts",
-              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\services\\api.ts",
-              "RelativeDocumentMoniker": "TaskManagement\\frontend\\src\\services\\api.ts",
-              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\services\\api.ts",
-              "RelativeToolTip": "TaskManagement\\frontend\\src\\services\\api.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-04-23T17:27:04.715Z",
+              "Title": "TaskItemController.cs",
+              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\Controllers\\TaskItemController.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Controllers\\TaskItemController.cs",
+              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\Controllers\\TaskItemController.cs",
+              "RelativeToolTip": "TaskManagement\\Controllers\\TaskItemController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwCoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T23:43:41.028Z",
               "EditorCaption": ""
             }
           ]

@@ -161,3 +161,4 @@ E:\GitProjects\__Github\TaskManagement\TaskManagement\bin\Debug\net8.0\frontend\
 E:\GitProjects\__Github\TaskManagement\TaskManagement\bin\Debug\net8.0\frontend\tsconfig.json
 E:\GitProjects\__Github\TaskManagement\TaskManagement\bin\Debug\net8.0\frontend\tsconfig.node.json
 E:\GitProjects\__Github\TaskManagement\TaskManagement\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\GitProjects\__Github\TaskManagement\TaskManagement\obj\Debug\net8.0\TaskManagement.sourcelink.json
