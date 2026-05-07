@@ -1,105 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\GitProjects\\__Github\\TaskManagement\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\controllers\\taskitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\controllers\\taskitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\mappers\\taskitemdtomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\mappers\\taskitemdtomapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\dtos\\taskitem\\taskitemrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\dtos\\taskitem\\taskitemrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "TaskManagement\\Services\\TokenService.cs",
-              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\Services\\TokenService.cs",
-              "RelativeToolTip": "TaskManagement\\Services\\TokenService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAABoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T23:55:49.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaskItemController.cs",
-              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\Controllers\\TaskItemController.cs",
-              "RelativeDocumentMoniker": "TaskManagement\\Controllers\\TaskItemController.cs",
-              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\Controllers\\TaskItemController.cs",
-              "RelativeToolTip": "TaskManagement\\Controllers\\TaskItemController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T23:50:37.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TaskItemDtoMapper.cs",
-              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\Mappers\\TaskItemDtoMapper.cs",
-              "RelativeDocumentMoniker": "TaskManagement\\Mappers\\TaskItemDtoMapper.cs",
-              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\Mappers\\TaskItemDtoMapper.cs",
-              "RelativeToolTip": "TaskManagement\\Mappers\\TaskItemDtoMapper.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAADwvx8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T23:50:13.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskItemRequestDto.cs",
-              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\DTOs\\TaskItem\\TaskItemRequestDto.cs",
-              "RelativeDocumentMoniker": "TaskManagement\\DTOs\\TaskItem\\TaskItemRequestDto.cs",
-              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\DTOs\\TaskItem\\TaskItemRequestDto.cs",
-              "RelativeToolTip": "TaskManagement\\DTOs\\TaskItem\\TaskItemRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T23:48:35.086Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "TaskManagement\\Services\\AuthService.cs",
-              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\Services\\AuthService.cs",
-              "RelativeToolTip": "TaskManagement\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T22:41:52.843Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
