@@ -14,8 +14,8 @@ namespace TaskManagement.Repositories
             _appDbContext = appDbContext;
         }
 
-        public async Task<List<TaskItem>> GetAllTaskItemsAsync() => 
-            await _appDbContext.TaskItems.ToListAsync();
+        public async Task<List<TaskItem>> GetAllTaskItemsAsync(string userId) => 
+            await _appDbContext.TaskItems.Where(t => t.UserId == userId).ToListAsync();
 
         public async Task<TaskItem?> GetTaskItemByIdAsync(int taskId) =>
            await _appDbContext.TaskItems.FirstOrDefaultAsync(t => t.Id == taskId);

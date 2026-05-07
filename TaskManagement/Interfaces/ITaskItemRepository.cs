@@ -4,7 +4,7 @@ namespace TaskManagement.Interfaces
 {
     public interface ITaskItemRepository
     {
-        Task<List<TaskItem>> GetAllTaskItemsAsync();
+        Task<List<TaskItem>> GetAllTaskItemsAsync(string userId);
         Task<TaskItem?> GetTaskItemByIdAsync(int taskId);
         Task<TaskItem?> CreateTaskItemAsync(TaskItem taskItem);
         Task<TaskItem?> UpdateTaskItemAsync(int taskId, TaskItem taskItem);

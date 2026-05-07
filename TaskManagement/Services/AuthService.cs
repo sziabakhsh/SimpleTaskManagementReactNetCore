@@ -26,7 +26,7 @@ namespace TaskManagement.Services
             if (user == null)
                 throw new Exception("Invalid credentials");
 
-            // فرض: password check داری
+            // password check 
             // if (!CheckPassword(...)) ...
 
             var accessToken = _tokenService.CreateToken(user);

@@ -13,6 +13,7 @@ export default function TaskForm() {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <input {...register("title")} placeholder="Task title" />
+      <input {...register("description")} placeholder="Task description" />
       <button type="submit">Add</button>
     </form>
   );

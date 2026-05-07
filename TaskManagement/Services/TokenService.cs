@@ -28,10 +28,11 @@ namespace TaskManagement.Services
         {
             var claims = new List<Claim>
             {
+                new Claim(ClaimTypes.NameIdentifier, appUser.Id),
                 new Claim(JwtRegisteredClaimNames.Email, appUser.Email),
                 new Claim(JwtRegisteredClaimNames.GivenName , appUser.UserName)
             };
-
+ ;
             var creds = new SigningCredentials(_key, SecurityAlgorithms.HmacSha256);
 
             var tokenDescriptor = new SecurityTokenDescriptor

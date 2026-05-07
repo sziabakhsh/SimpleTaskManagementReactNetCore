@@ -17,6 +17,9 @@ export const useTasks = () => {
     onSuccess: () => {
       queryClient.invalidateQueries(["tasks"]);
     },
+    onError:(err)=>{
+      console.log(err);
+    }
   });
 
   // DELETE

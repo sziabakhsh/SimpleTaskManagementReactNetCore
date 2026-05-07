@@ -7,6 +7,8 @@ using TaskManagement.Interfaces;
 
 namespace TaskManagement.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class AccountController : ControllerBase
     {
         private readonly SignInManager<AppUser> _signInManager;

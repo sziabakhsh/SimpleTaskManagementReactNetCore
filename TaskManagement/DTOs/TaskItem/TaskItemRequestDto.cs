@@ -6,7 +6,6 @@ namespace TaskManagement.DTOs.TaskItem
     {
         [Required]
         public string Title { get; set; } = string.Empty;
-        public DateTime CreatedOn { get; set; } = DateTime.Now;
         public string Description { get; set; } = string.Empty;
         public bool IsCompleted { get; set; }
     }

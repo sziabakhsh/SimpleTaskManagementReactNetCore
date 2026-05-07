@@ -2,9 +2,12 @@ import './App.css'
 import {BrowserRouter as Router, Routes, Route}  from "react-router-dom"
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 
+import Nav from './components/Nav'
+import ProtectedRoute from './components/ProtectedRoute'
 import Home from './components/Home'
 import Tasks from './pages/Tasks'
-import Nav from './components/Nav'
+import Login from './pages/Login'
+import Register from './pages/Register'
 
   const client = new QueryClient({
       defaultOptions : {
@@ -26,7 +29,14 @@ function App() {
           <Nav />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/tasks" element={<Tasks />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/login" element={
+                <Login />} />
+            <Route path="/tasks" element={
+              <ProtectedRoute>
+                <Tasks />
+              </ProtectedRoute>
+            } />
             <Route path= "*"  element={<h2>404: Element not found</h2>}/>
           </Routes>
         </Router>

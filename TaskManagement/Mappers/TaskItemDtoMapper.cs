@@ -13,7 +13,8 @@ namespace TaskManagement.Mappers
                 Title = taskItem.Title,
                 CreatedOn = taskItem.CreatedOn,
                 Description = taskItem.Description,
-                IsCompleted = taskItem.IsCompleted
+                IsCompleted = taskItem.IsCompleted,
+                UserId = taskItem.UserId
             };
         }
 

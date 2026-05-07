@@ -10,5 +10,6 @@ namespace TaskManagement.DTOs.TaskItem
         public DateTime CreatedOn { get; set; } = DateTime.Now;
         public string Description { get; set; } = string.Empty;
         public bool IsCompleted { get; set; }
+        public string UserId { get; set; }
     }
 }
