@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\GitProjects\\__Github\\TaskManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\frontend\\src\\pages\\tasks.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\frontend\\src\\pages\\tasks.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\frontend\\src\\api\\tasks.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\frontend\\src\\api\\tasks.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\frontend\\src\\api\\account.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\frontend\\src\\api\\account.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\frontend\\src\\api\\axios.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\frontend\\src\\api\\axios.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|e:\\gitprojects\\__github\\taskmanagement\\taskmanagement\\taskmanagement.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0573BCCE-F888-C21E-FEEE-4567D6F83AEF}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\taskmanagement.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,54 +31,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Tasks.jsx",
-              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\pages\\Tasks.jsx",
-              "RelativeDocumentMoniker": "TaskManagement\\frontend\\src\\pages\\Tasks.jsx",
-              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\pages\\Tasks.jsx",
-              "RelativeToolTip": "TaskManagement\\frontend\\src\\pages\\Tasks.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-05-07T21:18:22.924Z",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "TaskManagement\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAADgvyAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T15:34:41.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "tasks.jsx",
-              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\api\\tasks.jsx",
-              "RelativeDocumentMoniker": "TaskManagement\\frontend\\src\\api\\tasks.jsx",
-              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\api\\tasks.jsx",
-              "RelativeToolTip": "TaskManagement\\frontend\\src\\api\\tasks.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-05-07T16:54:34.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "axios.jsx",
-              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\api\\axios.jsx",
-              "RelativeDocumentMoniker": "TaskManagement\\frontend\\src\\api\\axios.jsx",
-              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\api\\axios.jsx",
-              "RelativeToolTip": "TaskManagement\\frontend\\src\\api\\axios.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-05-07T16:51:03.62Z",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Services\\AuthService.cs",
+              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\Services\\AuthService.cs",
+              "RelativeToolTip": "TaskManagement\\Services\\AuthService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T15:34:12.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "account.jsx",
-              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\api\\account.jsx",
-              "RelativeDocumentMoniker": "TaskManagement\\frontend\\src\\api\\account.jsx",
-              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\frontend\\src\\api\\account.jsx",
-              "RelativeToolTip": "TaskManagement\\frontend\\src\\api\\account.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-05-07T16:44:19.27Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Program.cs",
+              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\Program.cs",
+              "RelativeToolTip": "TaskManagement\\Program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T03:23:17.271Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskManagement",
+              "DocumentMoniker": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\TaskManagement.csproj",
+              "RelativeDocumentMoniker": "TaskManagement\\TaskManagement.csproj",
+              "ToolTip": "E:\\GitProjects\\__Github\\TaskManagement\\TaskManagement\\TaskManagement.csproj",
+              "RelativeToolTip": "TaskManagement\\TaskManagement.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-08T15:46:03.546Z"
             }
           ]
         }

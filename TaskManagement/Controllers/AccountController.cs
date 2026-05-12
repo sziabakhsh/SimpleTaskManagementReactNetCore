@@ -30,8 +30,16 @@ namespace TaskManagement.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var result = await _authService.LoginAsync(loginDto);
-            return Ok(result);
+            try
+            {
+                var result = await _authService.LoginAsync(loginDto);
+
+                return Ok(result);
+            }
+            catch (Exception)
+            {
+                return BadRequest("Login or password is wrong.");
+            }
         }
 
         [HttpPost("register")]

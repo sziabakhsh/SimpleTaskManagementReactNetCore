@@ -4,6 +4,7 @@ using TaskManagement.Entities;
 using TaskManagement.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Cryptography;
+using Microsoft.AspNetCore.Identity;
 
 namespace TaskManagement.Services
 {
@@ -11,23 +12,26 @@ namespace TaskManagement.Services
     {
         private readonly AppDbContext _context;
         private readonly ITokenService _tokenService;
+        private readonly UserManager<AppUser> _userManager;
+        private readonly SignInManager<AppUser> _signInManager;
 
-        public AuthService(AppDbContext context, ITokenService tokenService)
+        public AuthService(AppDbContext context, ITokenService tokenService, UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
         {
             _context = context;
             _tokenService = tokenService;
+            _userManager = userManager;
+            _signInManager = signInManager;
         }
 
         public async Task<AuthResponseDto> LoginAsync(LoginDto loginDto)
         {
-            var user = await _context.Users
-                .FirstOrDefaultAsync(x => x.UserName == loginDto.Username);
-
+            var user = await _userManager.FindByNameAsync(loginDto.Username);
             if (user == null)
                 throw new Exception("Invalid credentials");
 
-            // password check 
-            // if (!CheckPassword(...)) ...
+            var result = await _signInManager.CheckPasswordSignInAsync(user, loginDto.Password, false);
+            if (!result.Succeeded)
+                throw new Exception("Invalid credentials");
 
             var accessToken = _tokenService.CreateToken(user);
             var refreshToken = GenerateRefreshToken(user.Id);
